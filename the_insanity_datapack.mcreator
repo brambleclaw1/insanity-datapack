@@ -7,12 +7,40 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "install"
+    },
+    {
+      "name": "DeepslatePlains",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_plains"
+    },
+    {
+      "name": "MagmaOcean",
+      "type": "biome",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_ocean"
+    },
+    {
+      "name": "OverworldWastes",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworld_wastes"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "biome.the_insanity_datapack.deepslate_plains": "Deepslate Plains",
+      "biome.the_insanity_datapack.overworld_wastes": "Overworld Wastes",
+      "biome.the_insanity_datapack.magma_ocean": "Magma Ocean"
+    }
   },
   "foldersRoot": {
     "name": "~",
