@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "the_insanity_datapack:deepslate_plains",
-    "the_insanity_datapack:magma_ocean"
+    "the_insanity_datapack:magma_ocean",
+    "the_insanity_datapack:the_allay"
   ]
 }

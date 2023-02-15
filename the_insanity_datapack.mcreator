@@ -103,6 +103,41 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "will_the_warden_come"
+    },
+    {
+      "name": "TheWarden",
+      "type": "biome",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_warden"
+    },
+    {
+      "name": "TheWardenDimension",
+      "type": "dimension",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "before_minecraft",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "TheAllay",
+      "type": "biome",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_allay"
+    },
+    {
+      "name": "ThePig",
+      "type": "biome",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_pig"
     }
   ],
   "variable_elements": [],
@@ -110,9 +145,12 @@
   "language_map": {
     "en_us": {
       "biome.the_insanity_datapack.the_beginning": "The Beginning",
+      "biome.the_insanity_datapack.the_allay": "The Allay",
       "biome.the_insanity_datapack.red_forest": "Red Forest",
       "biome.the_insanity_datapack.deepslate_plains": "Deepslate Plains",
       "biome.the_insanity_datapack.soul_sand_mountains": "Soul Sand Mountains",
+      "biome.the_insanity_datapack.the_warden": "The Warden",
+      "biome.the_insanity_datapack.the_pig": "The Pig",
       "biome.the_insanity_datapack.overworld_wastes": "Overworld Wastes",
       "biome.the_insanity_datapack.blue_forest": "Blue Forest",
       "biome.the_insanity_datapack.magma_ocean": "Magma Ocean",
