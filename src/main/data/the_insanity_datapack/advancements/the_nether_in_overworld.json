@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherrack"
+    },
+    "title": "The Nether in the Overworld...",
+    "description": "Find the Overworld Wastes.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_nether_in_overworld": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "the_insanity_datapack:overworld_wastes"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_insanity_datapack:install"
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:reinforced_deepslate"
+    },
+    "title": "Will the Warden come?",
+    "description": "Find the Deepslate Plains biome.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "will_the_warden_come": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "the_insanity_datapack:deepslate_plains"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_insanity_datapack:install"
+}

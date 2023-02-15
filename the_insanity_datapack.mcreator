@@ -63,12 +63,53 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "basalt_flats"
+    },
+    {
+      "name": "TheBeginning",
+      "type": "biome",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_beginning"
+    },
+    {
+      "name": "TheNetherInOverworld",
+      "type": "achievement",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_nether_in_overworld"
+    },
+    {
+      "name": "TheBeginningOrEnd",
+      "type": "achievement",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_beginning_or_end"
+    },
+    {
+      "name": "TheWorstOceanInExistance",
+      "type": "achievement",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_worst_ocean_in_existance"
+    },
+    {
+      "name": "WillTheWardenCome",
+      "type": "achievement",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "will_the_warden_come"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "biome.the_insanity_datapack.the_beginning": "The Beginning",
       "biome.the_insanity_datapack.red_forest": "Red Forest",
       "biome.the_insanity_datapack.deepslate_plains": "Deepslate Plains",
       "biome.the_insanity_datapack.soul_sand_mountains": "Soul Sand Mountains",

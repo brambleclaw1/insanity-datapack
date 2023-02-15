@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:magma_block"
+    },
+    "title": "The Worst Ocean In Existance",
+    "description": "Find the Magma Ocean.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_worst_ocean_in_existance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "the_insanity_datapack:magma_ocean"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_insanity_datapack:install"
+}

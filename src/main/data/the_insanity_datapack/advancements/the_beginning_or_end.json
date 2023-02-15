@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:end_stone"
+    },
+    "title": "The Beginning... Or the End!?",
+    "description": "Find the biome The Beginning",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_beginning_or_end": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "the_insanity_datapack:the_beginning"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_insanity_datapack:install"
+}
