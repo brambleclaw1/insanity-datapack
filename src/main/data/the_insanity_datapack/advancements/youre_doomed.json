@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sculk_shrieker"
+    },
+    "title": "You're Doomed...",
+    "description": "Enter the Warden Dimension.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "youre_doomed": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "the_insanity_datapack:before_minecraft"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3000
+  },
+  "parent": "the_insanity_datapack:install"
+}
