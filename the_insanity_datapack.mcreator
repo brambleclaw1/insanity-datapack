@@ -118,7 +118,7 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "before_minecraft",
+      "registry_name": "the_warden_dimension",
       "metadata": {
         "ep": false
       }
@@ -178,20 +178,55 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_warden_will_come"
+    },
+    {
+      "name": "TeleportToWarden",
+      "type": "function",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_to_warden"
+    },
+    {
+      "name": "DesertOfDeath",
+      "type": "biome",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_of_death"
+    },
+    {
+      "name": "DiamondHills",
+      "type": "biome",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_hills"
+    },
+    {
+      "name": "IronValleys",
+      "type": "biome",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_valleys"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "biome.the_insanity_datapack.desert_of_death": "Desert Of Death",
       "biome.the_insanity_datapack.the_pig": "The Pig",
       "biome.the_insanity_datapack.magma_ocean": "Magma Ocean",
       "biome.the_insanity_datapack.basalt_flats": "Basalt Flats",
+      "biome.the_insanity_datapack.diamond_hills": "Diamond Hills",
       "biome.the_insanity_datapack.the_beginning": "The Beginning",
       "biome.the_insanity_datapack.the_allay": "The Allay",
       "biome.the_insanity_datapack.red_forest": "Red Forest",
       "biome.the_insanity_datapack.deepslate_plains": "Deepslate Plains",
       "biome.the_insanity_datapack.boing": "Boing",
+      "biome.the_insanity_datapack.iron_valleys": "Iron Valleys",
       "biome.the_insanity_datapack.soul_sand_mountains": "Soul Sand Mountains",
       "biome.the_insanity_datapack.the_warden": "The Warden",
       "biome.the_insanity_datapack.overworld_wastes": "Overworld Wastes",
@@ -206,7 +241,8 @@
     "modid": "the_insanity_datapack",
     "modName": "The Insanity Datapack",
     "version": "1.0.0",
-    "author": "gavin, MCreator",
+    "description": "Adds a ton of biomes and a new dimension.",
+    "author": "gh5674",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -216,6 +252,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "datapack-1.19.x",
+    "credits": "gh5674, help from deadcreeper2413",
     "modElementsPackage": "net.mcreator.theinsanitydatapack",
     "lockBaseModFiles": false
   },

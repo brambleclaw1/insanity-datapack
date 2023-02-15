@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "the_insanity_datapack:the_warden"
+    "the_insanity_datapack:the_warden",
+    "the_insanity_datapack:diamond_hills"
   ]
 }

@@ -1,0 +1,1 @@
+/execute in the_insanity_datapack:the_warden_dimension tp ~ ~ ~

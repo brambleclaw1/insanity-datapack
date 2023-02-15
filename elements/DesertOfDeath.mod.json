@@ -2,18 +2,18 @@
   "_fv": 34,
   "_type": "biome",
   "definition": {
-    "name": "Soul Sand Mountains",
+    "name": "Desert Of Death",
     "groundBlock": {
-      "value": "Blocks.SOUL_SAND"
+      "value": "Blocks.MAGMA"
     },
     "undergroundBlock": {
-      "value": "Blocks.SOUL_SOIL"
+      "value": "Blocks.LAVA"
     },
     "underwaterBlock": {
       "value": ""
     },
     "airColor": {
-      "value": -13434880,
+      "value": -65536,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -35,9 +35,9 @@
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.0,
-    "temperature": 1.9,
-    "baseHeight": 0.7,
-    "heightVariation": 1.2,
+    "temperature": 2.0,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
     "spawnBiome": true,
     "spawnBiomeNether": false,
     "spawnInCaves": false,
@@ -67,40 +67,39 @@
     "treeFruits": {
       "value": ""
     },
-    "spawnStronghold": false,
+    "spawnStronghold": true,
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,
-    "spawnPillagerOutpost": false,
-    "villageType": "none",
+    "spawnPillagerOutpost": true,
+    "villageType": "desert",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
-    "spawnDesertPyramid": false,
+    "spawnDesertPyramid": true,
     "spawnSwampHut": false,
     "spawnIgloo": false,
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
     "spawnShipwreckBeached": false,
-    "spawnBuriedTreasure": false,
+    "spawnBuriedTreasure": true,
     "oceanRuinType": "NONE",
-    "spawnNetherBridge": true,
-    "spawnNetherFossil": true,
-    "spawnBastionRemnant": true,
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
     "spawnEndCity": false,
-    "spawnRuinedPortal": "NETHER",
+    "spawnRuinedPortal": "NONE",
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "InfestedStone",
-      "MonsterRooms"
+      "FrozenTopLayer"
     ],
     "spawnEntries": [
       {
         "entity": {
-          "value": "EntityWitherSkeleton"
+          "value": "EntityHusk"
         },
         "minGroup": 1,
-        "maxGroup": 3,
-        "weight": 3,
+        "maxGroup": 2,
+        "weight": 20,
         "spawnType": "monster"
       }
     ]
