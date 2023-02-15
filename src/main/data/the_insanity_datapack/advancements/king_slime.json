@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:slime_ball"
+    },
+    "title": "I'm King Slime!",
+    "description": "Find the Boing Biome",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "king_slime": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "the_insanity_datapack:boing"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_insanity_datapack:install"
+}

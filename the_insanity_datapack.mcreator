@@ -210,6 +210,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_valleys"
+    },
+    {
+      "name": "ImRich",
+      "type": "achievement",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "im_rich"
+    },
+    {
+      "name": "KingSlime",
+      "type": "achievement",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "king_slime"
     }
   ],
   "variable_elements": [],
