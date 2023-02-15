@@ -31,15 +31,51 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "overworld_wastes"
+    },
+    {
+      "name": "SoulSandMountains",
+      "type": "biome",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_sand_mountains"
+    },
+    {
+      "name": "RedForest",
+      "type": "biome",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_forest"
+    },
+    {
+      "name": "BlueForest",
+      "type": "biome",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_forest"
+    },
+    {
+      "name": "BasaltFlats",
+      "type": "biome",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt_flats"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "biome.the_insanity_datapack.red_forest": "Red Forest",
       "biome.the_insanity_datapack.deepslate_plains": "Deepslate Plains",
+      "biome.the_insanity_datapack.soul_sand_mountains": "Soul Sand Mountains",
       "biome.the_insanity_datapack.overworld_wastes": "Overworld Wastes",
-      "biome.the_insanity_datapack.magma_ocean": "Magma Ocean"
+      "biome.the_insanity_datapack.blue_forest": "Blue Forest",
+      "biome.the_insanity_datapack.magma_ocean": "Magma Ocean",
+      "biome.the_insanity_datapack.basalt_flats": "Basalt Flats"
     }
   },
   "foldersRoot": {

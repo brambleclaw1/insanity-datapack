@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "the_insanity_datapack:overworld_wastes"
+    "the_insanity_datapack:overworld_wastes",
+    "the_insanity_datapack:soul_sand_mountains",
+    "the_insanity_datapack:red_forest",
+    "the_insanity_datapack:blue_forest",
+    "the_insanity_datapack:basalt_flats"
   ]
 }

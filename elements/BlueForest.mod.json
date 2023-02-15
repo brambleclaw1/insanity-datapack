@@ -2,9 +2,9 @@
   "_fv": 34,
   "_type": "biome",
   "definition": {
-    "name": "Overworld Wastes",
+    "name": "Blue Forest",
     "groundBlock": {
-      "value": "Blocks.NETHERRACK"
+      "value": "Blocks.WARPED_NYLIUM"
     },
     "undergroundBlock": {
       "value": "Blocks.NETHERRACK"
@@ -13,23 +13,15 @@
       "value": ""
     },
     "airColor": {
-      "value": -3407872,
+      "value": -16776961,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -13421773,
+      "value": -16777063,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -10066330,
-      "falpha": 0.0
-    },
-    "waterColor": {
-      "value": -3381760,
-      "falpha": 0.0
-    },
-    "waterFogColor": {
-      "value": -26368,
+      "value": -16777063,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -51,9 +43,9 @@
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.0,
-    "temperature": 1.9000000000000001,
-    "baseHeight": 0.1,
-    "heightVariation": 0.2,
+    "temperature": 2.0,
+    "baseHeight": 0.6,
+    "heightVariation": 0.8,
     "spawnBiome": true,
     "spawnBiomeNether": false,
     "spawnInCaves": false,
@@ -110,11 +102,11 @@
     "spawnEntries": [
       {
         "entity": {
-          "value": "EntityPiglin"
+          "value": "EntityEnderman"
         },
         "minGroup": 4,
         "maxGroup": 4,
-        "weight": 8,
+        "weight": 20,
         "spawnType": "monster"
       }
     ]
